@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="xinDropdown.css">
+</head>
+<body>
+    <button class="trigger">
+        下拉菜单
+    </button>
+    
+    <div class="dropdown">
+        <div class="item">苹果</div>
+        <div class="item">香蕉</div>
+        <div class="item">梨子</div>
+    </div>
+
+    <script src="xinDropdown.js"></script>
+    <script>
+        const trigger = document.querySelector('.trigger');
+        const dropdown = document.querySelector('.dropdown');
+
+        xinDropdown.boot(trigger,dropdown);
+
+    </script>
+</body>
+</html>

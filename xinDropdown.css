@@ -1,0 +1,14 @@
+
+
+.xin-dropdown {
+    background: #ddd;
+    position: fixed;
+}
+
+.item {
+    padding: 5px 10px;
+}
+
+.xin-dropdown .item:hover {
+    background: rgba(0,0,0,.1);
+}
